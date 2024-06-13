@@ -18,7 +18,7 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string, options: { maxlength: 180 }}
       - { name: order, label: Order, type: number }
-      - { name: tag, label: Tag, type: select, options: [ Tech, News, Sports ] }
+      - { name: tag, label: Tag, type: select, options: {values: [ Tech, News, Sports ]} }
       - { name: body, label: Body, type: rich-text }
   - label: Home page
     path: src/index.njk
