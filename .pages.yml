@@ -3,7 +3,7 @@ media:
   output: dist/images
 content:
   - name: Blog
-    label: Blog
+    label: 博客
     type: collection
     path: src/content/post
     filename: "{primary}.md"
