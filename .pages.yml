@@ -1,6 +1,6 @@
-media:
-  input: src/media
-  output: /media
+images:
+  input: src/assets/images
+  output: dist/images
 content:
   - name: docs
     label: Documentation
