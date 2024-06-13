@@ -20,9 +20,9 @@ content:
       - { name: order, label: Order, type: number }
       - { name: tag, label: Tag, type: select, options: {values: [ Tech, News, Sports ]} }
       - { name: body, label: Body, type: rich-text }
-  - label: Home page
+  - name: homepage
+    label: 首页
     path: src/index.njk
-    name: homepage
     type: file
     fields:
       - { name: layout, type: string, hidden: true, default: layouts/base.njk }
