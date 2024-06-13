@@ -22,7 +22,7 @@ content:
       - { name: body, label: Body, type: rich-text }
   - name: homepage
     label: 首页
-    path: src/index.njk
+    path: src/pages/homes/startup.astro
     type: file
     fields:
       - { name: layout, type: string, hidden: true, default: layouts/base.njk }
